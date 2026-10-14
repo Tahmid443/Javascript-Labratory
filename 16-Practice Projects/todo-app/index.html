@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 400px;
+            margin: 40px auto;
+        }
+
+        input {
+            padding: 8px;
+            width: 70%;
+        }
+
+        button {
+            padding: 8px 12px;
+        }
+
+        li {
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li.done span {
+            text-decoration: line-through;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Todos</h1>
+    <form id="form">
+        <input id="input" placeholder="Add a task..." autocomplete="off">
+        <button>Add</button>
+    </form>
+    <ul id="list"></ul>
+    <script src="todo.js"></script>
+</body>
+
+</html>

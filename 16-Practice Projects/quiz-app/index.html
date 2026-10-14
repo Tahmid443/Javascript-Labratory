@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 500px;
+            margin: 40px auto;
+        }
+
+        button {
+            display: block;
+            margin: 6px 0;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .correct {
+            background: #cfc;
+        }
+
+        .wrong {
+            background: #fcc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <div id="q"></div>
+    <div id="choices"></div>
+    <p id="score"></p>
+    <button id="next" style="display:none">Next</button>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
